@@ -1,1 +1,9 @@
 
+
+Pregunta:
+¿Qué relación encuentras entre el uso responsable de la información en internet, la participación ciudadana y la organización del trabajo técnico con herramientas como Git?
+
+Respuesta:
+La relación entre estos temas es el orden y la verdad. Ser un buen ciudadano en internet significa no compartir mentiras para no engañar a los demás. En el trabajo, usar Git es parecido: sirve para que todo el equipo vea quién hizo cada cosa y no haya confusiones. Al final, las dos cosas buscan lo mismo: que la información sea clara, que el trabajo sea honesto y que todos puedan colaborar sin problemas ni engaños.
+
+

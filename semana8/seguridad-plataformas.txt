@@ -1,1 +1,5 @@
-
+1. No exponer datos personales de los miembros en secciones públicas.
+2. Proteger credenciales mediante el uso de contraseñas robustas y autenticación de dos factores (2FA).
+3. Usar conexiones seguras mediante protocolos cifrados como HTTPS y SSH.
+4. Registrar y auditar accesos para identificar ingresos sospechosos o no autorizados.
+5. Limitar el acceso a información sensible utilizando el principio de menor privilegio (solo quienes lo necesiten pueden ver los datos).

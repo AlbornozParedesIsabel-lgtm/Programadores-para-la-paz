@@ -1,1 +1,9 @@
+Al enviar una petición POST utilizando una herramienta como Postman o Thunder Client a la dirección http://localhost:3000/registro con el cuerpo en formato JSON solicitado, el servidor procesa los datos mediante "req.body" y devuelve un estado exitoso 200 OK. 
 
+La respuesta que se visualiza en la consola del cliente es un objeto JSON idéntico al siguiente:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}

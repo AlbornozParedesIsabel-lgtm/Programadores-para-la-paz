@@ -1,1 +1,7 @@
+Explicación de la prueba de reportes:
 
+Al realizar una consulta inicial mediante el método GET a http://localhost:3000/reportes, el servidor responde con un array vacío "[]" debido a que la variable global 'reportes' se inicializa sin elementos. 
+
+Luego, al enviar una petición POST con un cuerpo JSON que contiene un tipo y descripción, el servidor procesa la información, le asigna un identificador dinámico basado en la longitud del array (id: 1) y añade el objeto a la lista mediante el método .push(). 
+
+Finalmente, al volver a consultar la ruta GET, el servidor ya no devuelve un array vacío, sino que responde con una lista que incluye el objeto JSON recién guardado con su respectiva estructura e ID. Cabe destacar que si el servidor se reinicia, estos datos se borrarán porque se almacenan de forma volátil en la memoria RAM.

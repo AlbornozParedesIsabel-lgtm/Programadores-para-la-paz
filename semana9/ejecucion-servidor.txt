@@ -1,0 +1,13 @@
+¿Qué ocurre cuando ejecutas 'node server.js'?
+Al ejecutar el comando, Node.js interpreta el archivo JavaScript y levanta un proceso de servidor web local de manera continua. La terminal se queda "bloqueada" o en escucha activa, lo que significa que el servidor está encendido y listo para recibir peticiones HTTP de los usuarios.
+
+¿Qué mensaje aparece en la terminal?
+Aparece el siguiente mensaje de confirmación:
+Servidor ejecutándose en puerto 3000
+
+¿Qué sucede cuando visitas la ruta '/estado'?
+El navegador web realiza una petición de tipo GET al servidor en la dirección http://localhost:3000/estado. El servidor procesa la solicitud mediante Express y devuelve una respuesta en formato JSON con la siguiente estructura:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

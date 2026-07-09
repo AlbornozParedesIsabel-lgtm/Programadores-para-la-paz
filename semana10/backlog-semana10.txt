@@ -1,1 +1,6 @@
+HISTORIAS DE USUARIO PRIORIZADAS (De mayor a menor importancia)
 
+1. [ALTA] Como ciudadano, quiero registrar una incidencia de daño en la infraestructura pública para dejar evidencia digital del caso de forma rápida.
+2. [MEDIA] Como miembro del equipo de veeduría, quiero consultar el listado de reportes en el sistema para hacer seguimiento y verificar el estado de los casos.
+3. [MEDIA] Como coordinador de la plataforma, quiero recibir una alerta automatizada en Telegram para enterarme inmediatamente cuando se cree un nuevo reporte.
+4. [BAJA] Como ciudadano, quiero descargar un resumen estadístico mensual en PDF para compartir los avances de la veeduría en las asambleas barriales.

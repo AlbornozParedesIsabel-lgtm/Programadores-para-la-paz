@@ -1,1 +1,12 @@
+¿Qué 2 tareas del backlog harías primero?
+Desarrollaría primero la historia 1 (Registro de incidencias por el ciudadano) y la historia 2 (Consulta de reportes por el equipo de veeduría).
 
+¿Por qué son las más importantes?
+Porque constituyen el núcleo funcional mínimo (MVP) de la plataforma. Sin la capacidad de registrar una queja, el sistema no tiene datos con los cuales trabajar; y sin la capacidad de consultar esos reportes, la información queda inaccesible. Las notificaciones automáticas y las descargas de PDFs son valiosas, pero secundarias frente a la captura y visualización de la información.
+
+Definición simple de "Terminado" (Definition of Done - DoD):
+Para que una tarea se considere completamente terminada, debe cumplir con los siguientes 4 criterios:
+1. Funciona: El código de la funcionalidad se ejecuta correctamente en el entorno de desarrollo y no genera caídas en el servidor.
+2. Fue probada: Se realizaron pruebas manuales o de carga simulando las solicitudes de los usuarios para verificar que los datos ingresados se guardan correctamente.
+3. Quedó registrada en Git: El progreso fue guardado mediante commits limpios y subido al repositorio remoto de GitHub.
+4. Cumple con seguridad básica: Se comprobó que no expone contraseñas, tokens de bots, ni datos sensibles en código duro o archivos públicos.

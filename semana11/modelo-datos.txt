@@ -1,1 +1,25 @@
+MODELO DE DATOS DE LA PLATAFORMA COMUNITARIA
 
+Entidad: Causa
+
+Campos principales:
+- id (Número entero, clave primaria, autoincremental)
+- titulo (Texto corto, obligatorio)
+- descripcion (Texto largo, obligatorio)
+- fecha_creacion (Fecha y hora automática)
+- estado (Texto: "Activa", "Resuelta" o "En revisión")
+
+Propósito:
+Almacenar de forma estructurada las propuestas, problemáticas o iniciativas comunitarias planteadas por los ciudadanos que serán visibles públicamente en la plataforma.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id (Número entero, clave primaria, autoincremental)
+- causa_id (Número entero, clave foránea que conecta con Causa)
+- usuario_anonimizado_id (Texto único o hash del usuario)
+- fecha_apoyo (Fecha y hora automática)
+
+Propósito:
+Registrar de manera segura los votos o respaldos digitales que recibe cada causa, permitiendo llevar un control cuantitativo de la participación sin exponer identidades directas.

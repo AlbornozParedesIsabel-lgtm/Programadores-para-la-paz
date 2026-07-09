@@ -1,1 +1,7 @@
+DESCRIPCIÓN DE LA INTERFAZ DE USUARIO
 
+La interfaz contará con un panel principal claro y accesible. En la parte superior, los usuarios autenticados visualizarán un "Formulario para crear una causa" que contiene campos simples para el título, la descripción y un calendario para la fecha de la iniciativa. 
+
+Abajo se desplegará la "Vista de causas disponibles", organizada en tarjetas visuales independientes para cada propuesta pública. Cada una de estas tarjetas incluirá un "Contador de apoyos" que mostrará de forma gráfica y numérica el respaldo total de la comunidad, acompañado de un "Botón para apoyar una causa" que sumará de inmediato un nuevo voto al hacer clic. 
+
+Todo el diseño se mantendrá minimalista, priorizando la facilidad de uso y garantizando que no se filtre ningún dato confidencial o personal de los participantes.

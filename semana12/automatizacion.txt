@@ -1,0 +1,8 @@
+1. Evento que activa la automatización:
+Se registra un nuevo apoyo (firma) en una causa activa de la plataforma o la causa alcanza su meta de firmas.
+
+2. Mensaje que se envía (vía Telegram o canal comunitario):
+"¡Acción colectiva en marcha! 🚀 La causa [Título de la Causa] acaba de recibir un nuevo apoyo comunitaro. Actualmente contamos con [Número de Apoyos] ciudadanos exigiendo un cambio. Revisa y comparte la iniciativa aquí: [Enlace a la Causa]."
+
+3. Información que NO debe enviarse por motivos de seguridad y privacidad:
+Bajo ninguna circunstancia se deben enviar nombres completos, números de cédula, correos electrónicos, números telefónicos, direcciones residenciales ni comentarios sensibles de las personas que firman. La automatización solo debe manejar datos agregados (conteos numéricos) y el título público de la causa para proteger la integridad de los participantes.

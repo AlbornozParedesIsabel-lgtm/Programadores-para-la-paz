@@ -1,0 +1,6 @@
+Pasos del proceso:
+1. Creación de la Causa: Un líder comunitario o ciudadano ingresa a la plataforma, llena un formulario web con el título, descripción y justificación de una problemática, e inicia la causa.
+2. Almacenamiento y Visibilidad: El sistema guarda la causa en la base de datos y la publica de forma abierta en la interfaz principal para que otros usuarios puedan leerla.
+3. Registro de Apoyos (Votos/Firmas): Los ciudadanos interesados ingresan a la causa activa y, con solo un clic, ingresan sus datos básicos mínimos para registrar su respaldo de forma segura.
+4. Activación de Alertas y Conteo: Cada vez que se registra un nuevo apoyo, el sistema actualiza el contador en tiempo real y activa un webhook para notificar el avance a la comunidad.
+5. Cierre y Generación de PDF: Al alcanzar la meta de apoyos o la fecha límite, el sistema compila la información de la causa junto con el listado consolidado de respaldos, generando automáticamente un documento PDF formal y legalmente estructurado para ser presentado ante las autoridades.
